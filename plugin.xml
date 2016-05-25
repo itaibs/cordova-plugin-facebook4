@@ -28,7 +28,7 @@
 
     <!-- JavaScript interface -->
     <js-module src="www/facebook-native.js" name="FacebookConnectPlugin">
-        <clobbers target="facebookConnectPlugin" />
+        <clobbers target="secondFacebookConnectPlugin" />
     </js-module>
 
     <!-- android -->
@@ -157,7 +157,7 @@
     <!-- browser -->
     <platform name="browser">
         <js-module src="www/facebook-browser.js" name="FacebookConnectPluginBrowser">
-            <clobbers target="facebookConnectPlugin" />
+            <clobbers target="secondFacebookConnectPlugin" />
         </js-module>
         <config-file target="config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
