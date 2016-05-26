@@ -1,4 +1,4 @@
-package org.apache.cordova.secondfacebook;
+package org.apache.cordova.facebook;
 
 import android.content.Intent;
 import android.net.Uri;
