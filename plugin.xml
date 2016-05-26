@@ -36,7 +36,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
-                <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
+                <param name="android-package" value="org.apache.cordova.facebook.second.ConnectPlugin" />
                 <param name="onload" value="true" />
             </feature>
             <access origin="https://m.facebook.com" />
@@ -63,7 +63,7 @@
         <framework src="com.facebook.android:facebook-android-sdk:4.8.+"/>
 
         <!-- cordova plugin src files -->
-        <source-file src="src/android/ConnectPlugin.java" target-dir="src/org/apache/cordova/secondfacebook" />
+        <source-file src="src/android/ConnectPlugin.java" target-dir="src/org/apache/cordova/facebook/second" />
 
     </platform>
 
